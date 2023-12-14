@@ -6,7 +6,7 @@
 /*   By: hlakhal- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:08:50 by hlakhal-          #+#    #+#             */
-/*   Updated: 2023/12/11 18:36:20 by hlakhal-         ###   ########.fr       */
+/*   Updated: 2023/12/13 22:05:19 by hlakhal-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,6 @@ class Array
             if (n >= numSize)
                 throw std::runtime_error("out of range !!");
             return elements[n];
-        }
-        T* getElement() const
-        {
-            return this->elements; 
         }
         unsigned int size() const
         {
