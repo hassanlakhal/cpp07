@@ -6,7 +6,7 @@
 /*   By: hlakhal- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 12:14:42 by hlakhal-          #+#    #+#             */
-/*   Updated: 2023/12/12 19:08:46 by hlakhal-         ###   ########.fr       */
+/*   Updated: 2023/12/18 11:06:51 by hlakhal-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void func(const E& e)
 }
 
 template<typename T, typename F>
-void iter(T tab, int len , void(*func)(F))
+void iter(T *tab, int len , void(*func)(F))
 {
     if (!tab)
         return ;
